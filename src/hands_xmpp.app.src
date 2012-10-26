@@ -1,0 +1,12 @@
+{application, hands_xmpp,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { hands_xmpp_app, []}},
+  {env, []}
+ ]}.

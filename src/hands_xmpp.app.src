@@ -1,6 +1,6 @@
 {application, hands_xmpp,
  [
-  {description, ""},
+  {description, "An XMPP s2s erlang application."},
   {vsn, "1"},
   {registered, []},
   {applications, [

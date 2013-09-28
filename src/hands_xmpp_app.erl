@@ -10,6 +10,7 @@
 %% ===================================================================
 
 start(_StartType, _StartArgs) ->
+    hands_xmpp:start_xmpp(1, [], []),
     hands_xmpp_sup:start_link().
 
 stop(_State) ->
